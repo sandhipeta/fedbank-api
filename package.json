@@ -1,0 +1,15 @@
+{
+  "name": "fedbank-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fake Federal Bank customers API (json-server) for Postman practice",
+  "scripts": {
+    "start": "json-server db.json --host 0.0.0.0 --port ${PORT:-3000}"
+  },
+  "dependencies": {
+    "json-server": "1.0.0-beta.15"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
